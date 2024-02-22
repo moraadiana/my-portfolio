@@ -1,0 +1,57 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "./img/frontend.png ",
+            "title": "Front-End",
+            "description": "I possess strong front-end development skills, proficient in HTML, CSS, and JavaScript. Experienced in building responsive and visually appealing web interfaces using modern frameworks like React.js and Vue.js."
+        },
+        {
+            "id": "2",
+            "src": "./img/laravel.png",
+            "title": "Back-End",
+            "description": "Skilled in back-end development, adept at constructing scalable web applications utilizing Python, PHP, or Node.js. Proficient in database creation and management (MySQL) and adept at leveraging frameworks such as Laravel for development and maintenance."
+        },
+        {
+            "id": "3",
+            "src": "./img/figma.png",
+            "title": "UX/UI",
+            "description": "Skilled in UX/UI design, creating intuitive interfaces for web and mobile apps. Skilled in utilizing design tools such as Figma to develop user-centric interfaces that enhance usability and accessibility"
+        },
+        {
+            "id": "4",
+            "src": "./img/canva.png",
+            "title": "Graphic Design",
+            "description": " Proficient in Canva, creating impactful designs for digital and print media. Skilled in typography, color theory, and layout composition to deliver visually compelling graphics."
+        }
+
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "./img/portfolio.png ",
+            "title": "My Portfolio",
+            "description": "My portfolio website is a showcase of my journey as a Full Stack Developer, highlighting my expertise in web development, design, and problem-solving. Featuring a collection of my recent projects, it demonstrates my proficiency in technologies like React, Python, HTML, CSS, and JavaScript. With a user-friendly interface and smooth navigation, it reflects my commitment to delivering impactful and engaging web experiences. Overall, my portfolio website is a testament to my skills, creativity, and passion for creating innovative digital solutions.",
+            "link": "View In Github" 
+
+
+
+        },
+        {
+            "id": "2",
+            "src": "./img/gatepass.png",
+            "title": "Gatepass System",
+            "description": "This system is a web application that I developed as a Full Stack Developer. It is designed to streamline and automate the process of issuing gate passes in a secure and efficient manner. The app is built using PHP and incorporates features for user authentication, form submission, and gate pass generation. It includes a user-friendly interface for requesting gate passes, with fields for entering necessary information such as purpose, date, time, and destination. The app also includes an administrative interface for managing gate pass requests, reviewing details, and approving or rejecting requests as needed. Overall, the Gatepass app project demonstrates my ability to develop practical solutions that enhance operational efficiency and security within organizational settings.",
+            "link": "View In Github"
+        },
+        {
+            "id": "3",
+            "src": "./img/alx.png",
+            "title": "ALX S/W Engineering Program",
+            "description": "The ALX Software Engineering Program empowered me with in-depth skills in software development through hands-on projects and mentorship from industry experts, fostering a confident and collaborative approach to solving complex challenges in the field.",
+            "link": "View In Github"
+        }
+     
+
+    ]
+}
