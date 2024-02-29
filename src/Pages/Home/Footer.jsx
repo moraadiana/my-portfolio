@@ -147,7 +147,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/dianamoraan/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"

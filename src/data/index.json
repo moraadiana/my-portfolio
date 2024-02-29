@@ -53,5 +53,29 @@
         }
      
 
+    ],
+
+    "experience": [
+        {
+            "id": "1",
+            "title": "ICT Support Officer ",
+            "company": "Bulkstream Ltd",
+            "duration": "Duration: Nov 2021 - Feb 2024",
+            "description": "Led initiatives to enhance operational efficiency through the development and implementation of a gate pass system, proactive support in ERP utilization, and rigorous data security measures, resulting in improved system adoption, zero breaches, and streamlined troubleshooting processes."
+        },
+        {
+            "id": "2",
+            "title": "Voter Registration Clerk",
+            "company": "IEBC",
+            "duration": "Duration: Oct 2021 - Nov 2021",
+            "description": "Achieved 100% accurate voter registration and surpassed targets by 25%, while efficiently managing changes in voters' voting stations to enhance electoral compliance and efficiency."
+        },
+        {
+            "id": "3",
+            "title": "Quality and Risk Management Intern ",
+            "company": " KPMG",
+            "duration": "Duration: Apr 2019 - July 2019",
+            "description": "Effectively coordinated data management activities, leading to a 20% increase in accuracy and efficiency, while ensuring compliance with audit requirements by maintaining sign-in registers."
+        }
     ]
 }

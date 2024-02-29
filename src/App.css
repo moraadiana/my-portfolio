@@ -247,7 +247,7 @@ h2 {
 }
 .skills--section--heading {
   color: var(--heading-color);
-  font-size: 64px;
+  font-size: 34px;
   font-weight: 700;
   line-height: 77px;
 }
@@ -484,6 +484,85 @@ select {
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>')
     white no-repeat calc(100% - 20px); /* Better placement regardless of input width */
 }
+/*style experience page*/
+
+.experience--section {
+  display: flex;
+  padding: 112px 85px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+
+}
+.experience--container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21.3px;
+}
+.experience--section--container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42.6px;
+  width: 100%;
+}
+.experience--section--card
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+  background: #fff;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.experience--section--card:hover path
+{
+  stroke: #006b6a;
+}
+.experience--section--heading {
+  color: var(--heading-color);
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 90px;
+}
+.experience--section--card--content
+{
+
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:8px;
+  align-self: stretch;
+  
+ 
+}
+
+
+.experience--section--title, .experience--section--company
+{
+  color: var(--heading-color);
+  
+}
+.experience--section--description , .experience--section--duration
+{
+  text-align: justify;
+  color: var(--heading-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+ }
+
+
 /*For IE*/
 select::-ms-expand {
   display: none;
