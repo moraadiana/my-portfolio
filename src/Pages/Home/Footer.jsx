@@ -31,12 +31,27 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="AboutMe"
                 className="text-md"
               >
-                Portfolio
+                About Me
               </Link>
             </li>
+
+            <li>
+             <Link
+               activeClass="navbar--active-content"
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration={500}
+               to="mySkills"
+               className="text-md"
+             >
+                 Skills
+             </Link>
+            </li>
+
             <li>
               <Link
                 activeClass="navbar--active-content"
@@ -44,12 +59,27 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="AboutMe"
+                to="MyPortfolio"
                 className="text-md"
               >
-                About Me
+                Portfolio
               </Link>
             </li>
+            <li>
+              <Link 
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="myExperience"
+                className="text-md"
+              >
+                Experience
+              </Link>
+            </li>
+
+           
             <li>
               <Link
                 activeClass="navbar--active-content"
@@ -63,19 +93,7 @@ function Footer() {
                 Contact
               </Link>
             </li>
-            <li>
-             <Link
-               activeClass="navbar--active-content"
-               spy={true}
-               smooth={true}
-               offset={-70}
-               duration={500}
-               to="MySkills"
-               className="text-md"
-             >
-                 Skills
-             </Link>
-            </li>
+            
           </ul>
         </div>
         <div className="footer--social--icon">
@@ -126,7 +144,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.twitter.com/"
+                href="https://twitter.com/moraadiana13"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -173,7 +191,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by Diamor</p>
+        <p className="footer--content">Made by Diamor</p>
         <div className="footer--social--icon">
           <ul>
             <li>

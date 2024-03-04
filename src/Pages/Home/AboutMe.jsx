@@ -9,7 +9,7 @@ export default function AboutMe() {
             <div className='about--section--content--box about--section--box'>
                 <div className='hero--section--content'>
 
-                    <p className='section--title'>About</p>
+                    
                     <h1 className='skills--section--title'>
                         About Me
                     </h1>

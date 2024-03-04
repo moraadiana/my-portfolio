@@ -106,6 +106,21 @@ function Navbar() {
               Portfolio
             </Link>
           </li>
+
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="myExperience"
+              className="navbar--content"
+            >
+              Experience
+            </Link>
+          </li>
           
          
         </ul>

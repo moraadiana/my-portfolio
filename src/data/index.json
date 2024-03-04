@@ -58,6 +58,7 @@
     "experience": [
         {
             "id": "1",
+            "src": "./img/bulkstream-logo.png ",
             "title": "ICT Support Officer ",
             "company": "Bulkstream Ltd",
             "duration": "Duration: Nov 2021 - Feb 2024",
@@ -65,6 +66,7 @@
         },
         {
             "id": "2",
+            "src": "./img/iebc-logo.png ",
             "title": "Voter Registration Clerk",
             "company": "IEBC",
             "duration": "Duration: Oct 2021 - Nov 2021",
@@ -72,6 +74,7 @@
         },
         {
             "id": "3",
+            "src": "./img/kpmg-logo.png ",
             "title": "Quality and Risk Management Intern ",
             "company": " KPMG",
             "duration": "Duration: Apr 2019 - July 2019",
