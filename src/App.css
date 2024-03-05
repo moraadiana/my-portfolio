@@ -719,7 +719,7 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
   }
-  .skills--section,
+  .skills--section, 
   .portfolio--container,
   .hero--section--content,
   .hero--section--content--box {
@@ -791,6 +791,27 @@ input[type="checkbox"] {
   background-color: #000000;
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
+}
+@media screen and (max-width: 1200px) {
+  .experience--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21.3px;
+  }
+  .experience--section--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42.6px;
+
+  }
+  .experience--section--card {
+    width: 100%;
+  }
+  .experience--section {
+    padding: 90px 85px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
